@@ -1,0 +1,110 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home
+{
+    z-index: 0;
+    background-image: url("../img/home-bgd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rest
+{
+    z-index: 0;
+    background-image: url("../img/home-bgd_edited.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.education-table
+{
+    background-color: white;
+    text-align: left;
+}
+.education-div
+{
+    margin-left: 40px;
+    width: 50%;
+}
+.intro
+{   
+    margin-left: 40px;
+}
+#website
+{
+    margin-left:40px;
+}
+.link-imgs
+{
+        margin-left: 100px;
+        height: 600px;
+        width: 400px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+}
+.profile
+{
+        float: right;
+        margin-right: 50px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+}
+.para1
+{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#gallery
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 60%;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0px;
+}
+div.foot
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    background-color:rgba(161, 223, 132, 0.973);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.navbar
+{
+    border-radius: 0;
+    position: fixed;
+    top:0;border-width:0 0 1px;
+    right:0;
+    left:0;
+}
+.fixedtotop
+{
+    top:0;border-width:0 0 1px;
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+}
+.form-table
+{
+    margin:220px;
+    width: 50%;
+}
+#fm-table
+{
+    background-color: white;
+    text-align: left;
+}
