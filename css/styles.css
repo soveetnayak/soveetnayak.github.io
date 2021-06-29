@@ -1,6 +1,6 @@
 body
 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .home
 {
@@ -75,7 +75,7 @@ div.foot
     margin-right: auto;
     display: block;
     width: 60%;
-    background-color:rgba(161, 223, 132, 0.973);
+    background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 10px;
@@ -107,4 +107,28 @@ div.foot
 {
     background-color: white;
     text-align: left;
+}
+#Contactbox
+{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    padding: 40px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-size: contain;
+}
+.column
+{
+        background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+}
+.column img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
