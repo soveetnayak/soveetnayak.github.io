@@ -54,10 +54,4 @@ function()
     $(".li-nav").mouseleave(function(){
         $(this).css("background-color", "#222");
     });
-    $(".btn-success").click(function () {
-        markup = '<tr><td>This is row</td><td>Hi</td><td>hi</td></tr>';
-
-        $("#fm-table").append(markup);
-
-    });
 });

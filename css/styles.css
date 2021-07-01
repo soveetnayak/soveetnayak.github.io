@@ -5,14 +5,14 @@ body
 .home
 {
     z-index: 0;
-    background-image: url("../img/home-bgd.jpg");
-    background-size: cover;
+    background-image: url("../img/tim-gouw-F2JaS1gt5Q4-unsplash.jpg");
+    background-size: auto;
     background-repeat: no-repeat;
 }
 .rest
 {
     z-index: 0;
-    background-image: url("../img/home-bgd_edited.jpg");
+    background-image: url("../img/yang-shuo-uYHYGgvkz_Y-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,17 +23,41 @@ body
 }
 .education-div
 {
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     width: 50%;
+}
+.education-div td   
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.education-div th
+{
+    background-image: url(../img/439417-light-blue-minimalist-wallpaper-top-free-light-blue-minimalist.png);
+    text-align: center;
+}
+.sites
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image:  url(../img/tim-gouw-F2JaS1gt5Q4-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 15px;
 }
 .intro
 {   
     margin-left: 40px;
 }
-#website
-{
-    margin-left:40px;
-}
+
 .link-imgs
 {
         margin-left: 100px;
@@ -52,10 +76,27 @@ body
         padding: 5px;
         width: 150px;
 }
+.monuments
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    background-color: rgb(168, 132, 201);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    margin-bottom: 15px;
+}
 .para1
 {
-    font-size: medium;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para1 table
+{
+    table-layout: auto;
 }
 #gallery
 {
@@ -75,7 +116,7 @@ div.foot
     margin-right: auto;
     display: block;
     width: 60%;
-    background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background:linear-gradient(to bottom, #ffffff 0%,   #114263 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 10px;
@@ -100,35 +141,66 @@ div.foot
 }
 .form-table
 {
-    margin:220px;
+    padding-top: 100px;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.form-table th
+{
+    background-image: url(../img/439417-light-blue-minimalist-wallpaper-top-free-light-blue-minimalist.png);
+    text-align: center;
 }
 #fm-table
 {
     background-color: white;
     text-align: left;
 }
+#fm-table td
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #Contactbox
 {
-    font-size: 40px;
+    font-size: 33px;
     text-align: center;
-    color: black;
+    color:rgb(13, 44, 92);
     margin: auto;
     width: 50%;
-    height: 200px;
-    padding: 40px;
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-    background-size: contain;
+    height: 150px;
+    padding: 20px;
+    background-image: url(../img/tim-gouw-F2JaS1gt5Q4-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .column
 {
-        background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        background-image: linear-gradient(to bottom, #00ffff 0%, #ffffff 100%);;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
+        border-radius: 15px;
 }
 .column img
 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.knowme
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    color:rgb(13, 44, 92);
+    background-image: url(../img/tim-gouw-F2JaS1gt5Q4-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px;
+    font-size: 33px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
