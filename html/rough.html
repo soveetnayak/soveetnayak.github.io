@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+    Home
+</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/styles.css">
+<script src="../js/script.js"></script>
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+<div id="navbar">
+  <a class="active" href="javascript:void(0)">Home</a>
+  <a href="javascript:void(0)">News</a>
+  <a href="javascript:void(0)">Contact</a>
+</div>
+          <img class="profile" src="../img/me.jpg" alt="profile">
+          <div class="intro">
+            <h3>
+                Hey there! Welcome to my webpage 🐠
+            </h3>
+            <br>
+            <p class="para1">
+            Hello! I am Soveet Kumar Nayak. <br>Currently an undergraduate here at International Institute of Information Technology, Hyderabad aka IIIT-H.<br>
+            I am currently pursuing Computer Science and Engineering.<br>
+            I am in house Vayu. 🌫🌫🌪🌫🌫
+            </p>
+          </div>
+          <br><br>
+          <div id="dequeue" class="blocks">
+            <div class="zero" style="width: 500px; display: block;"> <h3>4 Random things I like...</h3>Try Hovering</div>
+            <div class="one move" style="width: 300px; display: block;"> Thrillers (Movies/Shows)</div>
+            <div class="two move" style="width: 300px; display: block; overflow: hidden;"> Memes</div>
+            <div class="three move" style="width: 300px; display: block;"> Ed Sheeran</div>
+            <div class="four move" style="width: 300px; display: block;"> You :)</div>
+          </div>
+          <br>
+          <br>
+          <div id="dequeue" class="blocks">
+            <div class="zero" style="width: 500px; display: block;"> <h3>What I am good at (Sports Edition)</h3>Try Hovering</div>
+            <div class="one move" style="width: 300px; display: block;"> Football ⚽</div>
+            <div class="two move" style="width: 300px; display: block; overflow: hidden;"> Basketball 🏀</div>
+            <div class="three move" style="width: 300px; display: block;"> Badminton 🏸</div>
+            <div class="four move" style="width: 300px; display: block;"> Table-Tennis 🏓</div>
+          </div>
+          <br><br>
+          <div class="monuments">
+            Enjoy these two extraordinary pictures now
+          </div>
+          <br><br>
+          <div>
+          <div class="col-sm-6">
+            <img class="link-imgs" src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="Paris">
+          </div>
+          
+          <div class="col-sm-6">
+            <img class="link-imgs" src="https://images.unsplash.com/photo-1623811852177-611cda0b372f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=698&q=80" alt="Agra">
+          </div>
+        </div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
