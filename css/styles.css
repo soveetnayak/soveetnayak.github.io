@@ -13,9 +13,9 @@ body
 {
     background-image: linear-gradient(to right top, #e67373, #de83b7, #b3a1e4, #85bbef, #7fcddf);
     background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #pika
 {
@@ -254,9 +254,3 @@ div.foot
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/*JS-1*/
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }

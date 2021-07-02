@@ -1,4 +1,6 @@
-/*JS-4*/
+/*
+JS-3 For storing form data in localStorage
+*/
 $(document).ready
 (
 function()

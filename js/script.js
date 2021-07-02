@@ -2,18 +2,25 @@ $(document).ready
 (
 function()
 {
-/*JS-1*/
+/*
+JS-1
+Added a Bootstrap Class for fixed navbar
+*/
     $(document).scroll(function(){
             $(".navbar").addClass('navbar-fixed-top');
     });
-/*JS-2 For Highlighting fields in Nav-Bar*/
+/*JS-2
+For Highlighting fields in Nav-Bar
+*/
     $(".li-nav").mouseenter(function(){
         $(this).css("background-color", "grey");
     });
     $(".li-nav").mouseleave(function(){
         $(this).css("background-color", "#222");
     });
-/*Fun*/
+/*
+Fun
+*/
     $(".move").hover(function(){
         if (!$(this).hasClass('animated')) {
             $(this).dequeue().stop().animate({ width: "500px" });
@@ -25,7 +32,9 @@ function()
     });
 });
 
-/*JS-4*/
+/*
+JS-4 Image Gallery
+*/
 function imggallery() {
     var url = document.getElementById("gallery").src;
     var image = url.substring(url.lastIndexOf('/')+1);
