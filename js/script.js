@@ -8,6 +8,7 @@ Added a Bootstrap Class for fixed navbar
 */
     $(document).scroll(function(){
             $(".navbar").addClass('navbar-fixed-top');
+            $("body").css("padding-top", "70px");
     });
 /*JS-2
 For Highlighting fields in Nav-Bar

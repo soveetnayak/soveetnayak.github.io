@@ -1,6 +1,7 @@
 body
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .home
 {
@@ -75,7 +76,6 @@ body
         margin-right: 50px;
         border: 1px solid #ddd;
         border-radius: 4px;
-        padding: 5px;
         width: 150px;
 }
 .monuments
@@ -215,10 +215,6 @@ div.foot
 .intro
 {
     margin-left: 20px;
-}
-#navbarid
-{
-    position: fixed;
 }
 .zero
 {

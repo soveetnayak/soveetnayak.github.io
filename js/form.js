@@ -10,9 +10,9 @@ function()
         for (var key in localStorage) {
             try {
                 var data = JSON.parse(localStorage.getItem(key));
-                if (data.check === "VALID") {
-                    document.getElementById('fm-table').innerHTML += '<tr><td>' + key + '</td><td>' + data.skill +
-                        '</td><td>' + data.level + '</td></tr>';
+                if (data.Check === "VALID") {
+                    document.getElementById('fm-table').innerHTML += '<tr><td>' + key + '</td><td>' + data.Skill +
+                        '</td><td>' + data.Level + '</td></tr>';
                 }
             } catch (err) {;
             }
@@ -20,22 +20,22 @@ function()
     }
 });
 
-var dict = {};
+var dictarray = {};
 function addData() {
-    var name = document.forms.input[0].value;
-    var s = document.getElementById("v2");
-    if( name == "")
+    var Name = document.forms.input[0].value;
+    if( Name == "")
     {
         exit();
     }
-    var skill = s.options[s.selectedIndex].text;
-    var l = document.getElementById("v3");
-    var level = l.options[l.selectedIndex].text;
-    var check = "VALID";
-    dict[name] = { skill, level, check };
+    var svar = document.getElementById("v2");
+    var Skill = svar.options[svar.selectedIndex].text;
+    var lvar = document.getElementById("v3");
+    var Level = lvar.options[lvar.selectedIndex].text;
+    var Check = "VALID"
+    dictarray[Name] = {Skill, Level, Check};
+    
     if (typeof(Storage) !== "undefined") {
-        localStorage.setItem(name, JSON.stringify(dict[name]));
+        localStorage.setItem(Name, JSON.stringify(dictarray[Name]));
     }
-    document.getElementById('fm-table').innerHTML += '<tr><td>' + name + '</td><td>' + skill +
-        '</td><td>' + level  + '</td></tr>';
+
 }
