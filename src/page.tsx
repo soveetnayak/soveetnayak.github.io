@@ -15,19 +15,21 @@ export default function Page() {
       "No",
       "Are you sure?",
       "Really sure?",
+      "Wanna lose your kissing privileges?",
       "Think again!",
       "Last chance!",
-      "Surely not?",
+      "Pakkkaaaa?",
       "You might regret this!",
-      "Give it another thought!",
+      "I'll take back my denim shirt!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
+      "Silent treatment incoming for you!",
       "Have a heart!",
       "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
+      "You will never find another bestestcutesthottestnotfunnysexiest valentine!",
+      "Testimony that you have other boyfriends?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
+      "PLEASEEEEE",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,12 +39,12 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
-        <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-        <div className="text-4xl font-bold my-4">Ok yay!!!</div>
+        <img src="https://media1.tenor.com/m/Cqro9GuNTNQAAAAC/mochi-mochi-peach-cat-gif-mochi-cat.gif" />
+        <div className="text-2xl my-4"> Ps- Had to put your first response here.</div>
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
+          <img className="h-[200px]" src="https://media.tenor.com/VaoZeZTg5J4AAAAi/mochicat-love.gif" />
           <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
           <div>
             <button
