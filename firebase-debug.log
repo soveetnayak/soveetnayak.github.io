@@ -1,0 +1,85 @@
+[debug] [2024-02-14T16:02:28.807Z] ----------------------------------------------------------------------
+[debug] [2024-02-14T16:02:28.808Z] Command:       /home/sovvv/.nvm/versions/node/v18.17.1/bin/node /home/sovvv/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2024-02-14T16:02:28.809Z] CLI Version:   13.2.1
+[debug] [2024-02-14T16:02:28.809Z] Platform:      linux
+[debug] [2024-02-14T16:02:28.809Z] Node Version:  v18.17.1
+[debug] [2024-02-14T16:02:28.809Z] Time:          Wed Feb 14 2024 21:32:28 GMT+0530 (India Standard Time)
+[debug] [2024-02-14T16:02:28.809Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-14T16:02:28.813Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-14T16:02:28.814Z] > authorizing via signed-in user (soveetdj@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/sovvv/Desktop/Sem 8/my-project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-02-14T16:04:01.309Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-02-14T16:04:01.309Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"vday","name":"vday"}
+[debug] [2024-02-14T16:04:02.795Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-02-14T16:04:02.796Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id must be at least 6 characters long]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-02-14T16:04:02.930Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id must be at least 6 characters long]
+    at responseToError (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-02-14T16:04:13.978Z] ----------------------------------------------------------------------
+[debug] [2024-02-14T16:04:13.979Z] Command:       /home/sovvv/.nvm/versions/node/v18.17.1/bin/node /home/sovvv/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2024-02-14T16:04:13.980Z] CLI Version:   13.2.1
+[debug] [2024-02-14T16:04:13.980Z] Platform:      linux
+[debug] [2024-02-14T16:04:13.980Z] Node Version:  v18.17.1
+[debug] [2024-02-14T16:04:13.980Z] Time:          Wed Feb 14 2024 21:34:13 GMT+0530 (India Standard Time)
+[debug] [2024-02-14T16:04:13.981Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-14T16:04:13.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-14T16:04:13.985Z] > authorizing via signed-in user (soveetdj@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/sovvv/Desktop/Sem 8/my-project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-02-14T16:04:27.371Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-02-14T16:04:27.372Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"vdayyy","name":"vdayyy"}
+[debug] [2024-02-14T16:04:29.073Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-02-14T16:04:29.073Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8244508961865725454"}
+[debug] [2024-02-14T16:04:29.074Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8244508961865725454 [none]
+[debug] [2024-02-14T16:04:30.612Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8244508961865725454 200
+[debug] [2024-02-14T16:04:30.612Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8244508961865725454 {"name":"operations/cp.8244508961865725454","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2024-02-14T16:04:30.747Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createCloudProject (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/management/projects.js:186:29)
+    at async createFirebaseProjectAndLog (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/management/projects.js:45:9)
+    at async promptAndCreateNewProject (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/init/features/project.js:32:12)
+    at async doSetup (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/init/features/project.js:88:27)
+    at async init (/home/sovvv/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/init/index.js:37:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
